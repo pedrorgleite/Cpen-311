@@ -1,0 +1,285 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1
+vclk_tb
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1611905689
+!i10b 1
+!s100 TGOh_M?_GFhkS0YEYT@O81
+INTAlC_aTfFl[R:k2?Z6E=3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 clk_tb_sv_unit
+S1
+Z3 dC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim
+w1611639912
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk_tb.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk_tb.sv
+L0 3
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1611905689.905000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk_tb.sv|
+!i113 1
+Z5 o-work work -sv
+vcounter
+R0
+R1
+!i10b 1
+!s100 Goa95czVbd=<WR9SG_eQA1
+IXkAR3l=[dN=>hWhR=JBV]0
+R2
+!s105 clk_sv_unit
+S1
+R3
+w1611904543
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611905689.765000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk.sv|
+!i113 1
+R5
+vcouter_tb
+R0
+Z6 !s110 1611905690
+!i10b 1
+!s100 PIY:4DbIY2N5_FKejQCD>2
+In]:JbDX6SC>;:73iZcS[Z0
+R2
+!s105 frequency_gen_tb_sv_unit
+S1
+R3
+w1611446470
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequency_gen_tb.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequency_gen_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611905690.001000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequency_gen_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequency_gen_tb.sv|
+!i113 1
+R5
+vcouter_tb2
+R0
+!s110 1611903360
+!i10b 1
+!s100 ;QkE63_Sjb@izH8@NiiiS1
+I[E=4R;1A9fM8`jnmhJlBC0
+R2
+!s105 Couter_tb_sv_unit
+S1
+Z7 dC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim
+w1611518747
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/Couter_tb.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/Couter_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611903360.683000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/Couter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/Couter_tb.sv|
+!i113 1
+R5
+vfrequency_generator
+R0
+R6
+!i10b 1
+!s100 Bg]3?dmQO2Wh[_SRGPaOd0
+IJmnW8BNSUYZlVQHHMg`:f0
+R2
+!s105 frequeny_gen_sv_unit
+S1
+R3
+w1611636942
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequeny_gen.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequeny_gen.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1611905690.105000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequeny_gen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequeny_gen.sv|
+!i113 1
+R5
+vFSM_LED
+Z8 !s110 1611903361
+!i10b 1
+!s100 J5oalnj]X2:VML`BZG9YR2
+I@OZNAm<75@c1HcCDhc>Q>0
+R2
+R7
+w1611641474
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/FSMLED.v
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/FSMLED.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611903361.182000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/FSMLED.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/FSMLED.v|
+!i113 1
+Z9 o-work work
+n@f@s@m_@l@e@d
+vFSMLED
+R0
+R6
+!i10b 1
+!s100 82^4;eBlzhbXVjbeaG9lS1
+IfaQc3O@mAJ]l]Y4GNR;DV2
+R2
+!s105 FSM_LED_sv_unit
+S1
+R3
+w1611903347
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_LED.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_LED.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611905690.221000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_LED.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_LED.sv|
+!i113 1
+R5
+n@f@s@m@l@e@d
+vLED
+R0
+R8
+!i10b 1
+!s100 neLbJ^]HFK6U^9<1iTPU>0
+INAe9K=RJ:ZmLQRGFfBnQT3
+R2
+!s105 LED_sv_unit
+S1
+R7
+w1611897355
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1611903361.298000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED.sv|
+!i113 1
+R5
+n@l@e@d
+vled1_tb
+R0
+!s110 1611640814
+!i10b 1
+!s100 `ZHYmKYFZWRWT73[0FCj53
+I8VSoeaJEdG5IB0@AD=L;83
+R2
+!s105 fsm_tb_sv_unit
+S1
+R7
+w1611640808
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/fsm_tb.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/fsm_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1611640814.062000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/fsm_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/fsm_tb.sv|
+!i113 1
+R5
+vLED_FSM
+R8
+!i10b 1
+!s100 i0`WlMRjeh8cz0ji=1;000
+I>Z_m`>i0:RHGU6;GCgSBJ3
+R2
+R7
+w1611641229
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED_new.v
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED_new.v
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1611903361.832000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED_new.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Model_sim/LED_new.v|
+!i113 1
+R9
+n@l@e@d_@f@s@m
+vled_tb
+R0
+R6
+!i10b 1
+!s100 [_Ym<;D>SBZ>bT8D0[ZkE3
+I:@E3nDgPFLhY<hhY4b7:A0
+R2
+!s105 FSM_tb_sv_unit
+S1
+R3
+w1611902242
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_tb.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1611905690.349000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_tb.sv|
+!i113 1
+R5
+vvDFF
+R0
+R6
+!i10b 1
+!s100 ?j^9[W<dJXmU:d15JYHea2
+IRAfl9kH73If=dhh<OkkCA1
+R2
+!s105 vDFF_sv_unit
+S1
+R3
+w1611586214
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/vDFF.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/vDFF.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1611905690.452000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/vDFF.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/vDFF.sv|
+!i113 1
+R5
+nv@d@f@f

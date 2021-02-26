@@ -1,0 +1,213 @@
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.FLASH_FSM_tb
+# vsim -gui 
+# Start time: 02:21:47 on Feb 10,2021
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+# ** Warning: (vsim-3015) C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(17): [PCDPC] - Port size (23) does not match connection size (1) for port 'FSM_mem_address'. The port definition is at: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv(4).
+# 
+#         Region: /FLASH_FSM_tb/DUT
+# ** Warning: (vsim-3015) C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(17): [PCDPC] - Port size (32) does not match connection size (1) for port 'flash_mem_readdata'. The port definition is at: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv(6).
+# 
+#         Region: /FLASH_FSM_tb/DUT
+# ** Warning: (vsim-3015) C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(17): [PCDPC] - Port size (23) does not match connection size (1) for port 'flash_mem_address'. The port definition is at: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv(9).
+# 
+#         Region: /FLASH_FSM_tb/DUT
+add wave -position insertpoint  \
+sim:/FLASH_FSM_tb/clk \
+sim:/FLASH_FSM_tb/start \
+sim:/FLASH_FSM_tb/reset_all \
+sim:/FLASH_FSM_tb/FSM_mem_address \
+sim:/FLASH_FSM_tb/flash_mem_waitrequest \
+sim:/FLASH_FSM_tb/flash_mem_readdata \
+sim:/FLASH_FSM_tb/flash_mem_readdatavalid \
+sim:/FLASH_FSM_tb/flash_mem_read \
+sim:/FLASH_FSM_tb/flash_mem_address \
+sim:/FLASH_FSM_tb/flash_mem_byteenable \
+sim:/FLASH_FSM_tb/finish
+add wave -position insertpoint  \
+sim:/FLASH_FSM_tb/DUT/state
+run -all
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(75)
+#    Time: 163 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 75
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(74)
+#    Time: 163 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 74
+add wave -position insertpoint  \
+sim:/FLASH_FSM_tb/clk \
+sim:/FLASH_FSM_tb/start \
+sim:/FLASH_FSM_tb/reset_all \
+sim:/FLASH_FSM_tb/FSM_mem_address \
+sim:/FLASH_FSM_tb/flash_mem_waitrequest \
+sim:/FLASH_FSM_tb/flash_mem_readdata \
+sim:/FLASH_FSM_tb/flash_mem_readdatavalid \
+sim:/FLASH_FSM_tb/flash_mem_read \
+sim:/FLASH_FSM_tb/flash_mem_address \
+sim:/FLASH_FSM_tb/flash_mem_byteenable \
+sim:/FLASH_FSM_tb/finish
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/FLASH_FSM_tb/DUT/state
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(74)
+#    Time: 163 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 74
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(74)
+#    Time: 193 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 74
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(74)
+#    Time: 193 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 74
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(74)
+#    Time: 193 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 74
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(74)
+#    Time: 193 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 74
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.FLASH_FSM_tb
+# Loading work.FLASH_FSM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv(74)
+#    Time: 193 ps  Iteration: 0  Instance: /FLASH_FSM_tb
+# Break in Module FLASH_FSM_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv line 74
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# Compile of clk.sv failed with 3 errors.
+# Compile of Couter_tb.sv was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# Compile of clk.sv failed with 3 errors.
+# Compile of Couter_tb.sv was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# Compile of clk.sv failed with 3 errors.
+# Compile of Couter_tb.sv was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of clk.sv was successful.
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# Compile of clk.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.couter_tb2
+# vsim 
+# Start time: 03:12:44 on Feb 10,2021
+# Loading sv_std.std
+# Loading work.couter_tb2
+# Loading work.counter
+# ** Warning: (vsim-3017) C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Couter_tb.sv(4): [TFMPC] - Too few port connections. Expected 4, found 3.
+# 
+#         Region: /couter_tb2/dut
+# ** Warning: (vsim-3722) C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Couter_tb.sv(4): [TFMPC] - Missing connection for port 'max_tick'.
+# 
+# WARNING: No extended dataflow license exists
+# Compile of FLASH_FSM.sv was successful.
+# Compile of FLASH_FSM_TB.sv was successful.
+# Compile of clk.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# Loading sv_std.std
+# Loading work.couter_tb2
+# Loading work.counter
+add wave -position insertpoint  \
+sim:/couter_tb2/clk \
+sim:/couter_tb2/reset \
+sim:/couter_tb2/out \
+sim:/couter_tb2/max_tick
+run -all
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Couter_tb.sv(19)
+#    Time: 1000010 ps  Iteration: 0  Instance: /couter_tb2
+# Break in Module couter_tb2 at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Couter_tb.sv line 19
+# Project file C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Lab2.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# End time: 03:33:05 on Feb 10,2021, Elapsed time: 0:20:21
+# Errors: 1, Warnings: 3

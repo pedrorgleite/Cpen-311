@@ -1,0 +1,15 @@
+{C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clkdivider.sv} {0 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clkdivider.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module Basic_Organ_Solution
+** Error: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clkdivider.sv(369): (vlog-2730) Undefined variable: 'speed_up_event_trigger'.
+
+** Error: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clkdivider.sv(374): (vlog-2730) Undefined variable: 'speed_down_event_trigger'.
+
+** Error: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clkdivider.sv(381): (vlog-2730) Undefined variable: 'speed_up_event_trigger'.
+
+** Error: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clkdivider.sv(382): (vlog-2730) Undefined variable: 'speed_down_event_trigger'.
+
+** Error: C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clkdivider.sv(432): (vlog-2388) 'scope_sampling_clock_count' already declared in this scope (Basic_Organ_Solution).
+
+
+} {4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0} {}}

@@ -1,0 +1,339 @@
+# Compile of clk.sv was successful.
+# Compile of TestBench.sv was successful.
+# Compile of frequeny_gen.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# Compile of LED.sv was successful.
+# Compile of LED_tb.sv was successful.
+# Compile of vDFF.sv was successful.
+# Compile of FSMLED.v was successful.
+# Compile of fsm_tb.vhd failed with 1 errors.
+# Compile of fsm_tb.v failed with 2 errors.
+# 10 compiles, 2 failed with 3 errors.
+# Compile of clk.sv was successful.
+# Compile of TestBench.sv was successful.
+# Compile of frequeny_gen.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# Compile of LED.sv was successful.
+# Compile of LED_tb.sv was successful.
+# Compile of vDFF.sv was successful.
+# Compile of FSMLED.v was successful.
+# Compile of fsm_tb.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+# Load canceled
+vsim -gui work.couter_tb
+# vsim -gui 
+# Start time: 01:27:08 on Jan 26,2021
+# Loading sv_std.std
+# Loading work.couter_tb
+# Loading work.frequency_generator
+# Loading work.counter
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/couter_tb/clk \
+sim:/couter_tb/SW \
+sim:/couter_tb/out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pedri  Hostname: DESKTOP-OBHMTSG  ProcessID: 20716
+# 
+#           Attempting to use alternate WLF file "./wlft0j0gvr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft0j0gvr
+# 
+run -all
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv(50)
+#    Time: 8000080 ps  Iteration: 0  Instance: /couter_tb
+# Break in Module couter_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv line 50
+add wave -position insertpoint  \
+sim:/couter_tb/dut/freq0/out
+add wave -position insertpoint sim:/couter_tb/dut/freq1/*
+add wave -position insertpoint  \
+sim:/couter_tb/dut/freq2/out
+add wave -position insertpoint  \
+sim:/couter_tb/dut/freq3/out
+add wave -position insertpoint  \
+sim:/couter_tb/dut/freq4/out
+add wave -position insertpoint  \
+sim:/couter_tb/dut/freq5/out
+add wave -position insertpoint  \
+sim:/couter_tb/dut/freq6/out
+add wave -position insertpoint  \
+sim:/couter_tb/dut/freq7/out
+restart -f
+# Loading sv_std.std
+# Loading work.couter_tb
+# Loading work.frequency_generator
+# Loading work.counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv(50)
+#    Time: 8000080 ps  Iteration: 0  Instance: /couter_tb
+# Break in Module couter_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv line 50
+restart -f
+run -all
+# Loading sv_std.std
+# Loading work.couter_tb
+# Loading work.frequency_generator
+# Loading work.counter
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# WARNING: No extended dataflow license exists
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv(50)
+#    Time: 8000080 ps  Iteration: 0  Instance: /couter_tb
+# Break in Module couter_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv line 50
+# Compile of clk.sv was successful.
+# Compile of TestBench.sv was successful.
+# Compile of frequeny_gen.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# Compile of LED.sv was successful.
+# Compile of LED_tb.sv was successful.
+# Compile of vDFF.sv was successful.
+# Compile of FSMLED.v was successful.
+# Compile of fsm_tb.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+restart -f
+# Loading sv_std.std
+# Loading work.couter_tb
+# Loading work.frequency_generator
+# Loading work.counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv(50)
+#    Time: 8000080 ps  Iteration: 0  Instance: /couter_tb
+# Break in Module couter_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv line 50
+# Compile of clk.sv was successful.
+# Compile of TestBench.sv was successful.
+# Compile of frequeny_gen.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# Compile of LED.sv was successful.
+# Compile of LED_tb.sv was successful.
+# Compile of vDFF.sv was successful.
+# Compile of FSMLED.v was successful.
+# Compile of fsm_tb.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+restart -f
+# Loading sv_std.std
+# Loading work.couter_tb
+# Loading work.frequency_generator
+# Loading work.counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv(50)
+#    Time: 8000080 ps  Iteration: 0  Instance: /couter_tb
+# Break in Module couter_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv line 50
+# Compile of clk.sv was successful.
+# Compile of TestBench.sv was successful.
+# Compile of frequeny_gen.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# Compile of LED.sv was successful.
+# Compile of LED_tb.sv was successful.
+# Compile of vDFF.sv was successful.
+# Compile of FSMLED.v was successful.
+# Compile of fsm_tb.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+restart -f
+# Loading sv_std.std
+# Loading work.couter_tb
+# Loading work.frequency_generator
+# Loading work.counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv(50)
+#    Time: 8000080 ps  Iteration: 0  Instance: /couter_tb
+# Break in Module couter_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv line 50
+# Compile of clk.sv failed with 1 errors.
+# Compile of TestBench.sv was successful.
+# Compile of frequeny_gen.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# Compile of LED.sv was successful.
+# Compile of LED_tb.sv was successful.
+# Compile of vDFF.sv was successful.
+# Compile of FSMLED.v was successful.
+# Compile of fsm_tb.v failed with 2 errors.
+# 9 compiles, 2 failed with 3 errors.
+# Compile of clk.sv was successful.
+# Compile of TestBench.sv was successful.
+# Compile of frequeny_gen.sv was successful.
+# Compile of Couter_tb.sv was successful.
+# Compile of LED.sv was successful.
+# Compile of LED_tb.sv was successful.
+# Compile of vDFF.sv was successful.
+# Compile of FSMLED.v was successful.
+# Compile of fsm_tb.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+restart -f
+# Loading sv_std.std
+# Loading work.couter_tb
+# Loading work.frequency_generator
+# Loading work.counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv(50)
+#    Time: 8000080 ps  Iteration: 0  Instance: /couter_tb
+# Break in Module couter_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv line 50
+#  Trace back: invalid command name ".tree"
+#     while executing
+# "$wt cursoractivenumber"
+#     (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Base::UserChangedActiveTime" body line 9)
+#     invoked from within
+# "::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime"
+#     (in namespace inscope "::vsimwidgets::Dataflow::Base" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Dataflow::Base {::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime}"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval [$timebar cget -timechangecb]"
+#     (procedure "::vsimwidgets::TimeBar::TimeChangeHandler" body line 17)
+#     invoked from within
+# "::vsimwidgets::TimeBar::TimeChangeHandler ::vsimPriv acttime write"
+#     (write trace on "::vsimPriv(acttime)")
+#     invoked from within
+# "set ::vsimPriv(acttime) $t"
+#     (procedure "::TimeBarCmd::SetActiveTime" line 10)
+#     invoked from within
+# "::TimeBarCmd::SetActiveTime $t "--store""
+#     (procedure "::vsimwidgets::TimeBar::SetActiveTime" body line 18)
+#     invoked from within
+# "SetActiveTime $_acttimeAfterDrag --postdrag"
+#     (procedure "::vsimwidgets::TimeBar::WaveCursorDragChange" body line 23)
+#     invoked from within
+# "::vsimwidgets::TimeBar::WaveCursorDragChange vsimPriv dragging_cursor write"
+#     (write trace on "vsimPriv(dragging_cursor)")
+#     invoked from within
+# "set vsimPriv(dragging_cursor) 0"
+#     (procedure "Wave::1Up" line 76)
+#     invoked from within
+# "Wave::1Up $widget $x $y"
+#     (procedure "Wave::SelectUp" line 4)
+#     invoked from within
+# "Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data -2 304 -2971 21 "
+#     (command bound to event)
+#    <2:C:/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ".tree"}
+#  Trace back: invalid command name ".tree"
+#     while executing
+# "$wt cursoractivenumber"
+#     (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Base::UserChangedActiveTime" body line 9)
+#     invoked from within
+# "::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime"
+#     (in namespace inscope "::vsimwidgets::Dataflow::Base" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Dataflow::Base {::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime}"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval [$timebar cget -timechangecb]"
+#     (procedure "::vsimwidgets::TimeBar::TimeChangeHandler" body line 17)
+#     invoked from within
+# "::vsimwidgets::TimeBar::TimeChangeHandler ::vsimPriv acttime write"
+#     (write trace on "::vsimPriv(acttime)")
+#     invoked from within
+# "set ::vsimPriv(acttime) $t"
+#     (procedure "::TimeBarCmd::SetActiveTime" line 10)
+#     invoked from within
+# "::TimeBarCmd::SetActiveTime $t "--store""
+#     (procedure "::vsimwidgets::TimeBar::SetActiveTime" body line 18)
+#     invoked from within
+# "SetActiveTime $_acttimeAfterDrag --postdrag"
+#     (procedure "::vsimwidgets::TimeBar::WaveCursorDragChange" body line 23)
+#     invoked from within
+# "::vsimwidgets::TimeBar::WaveCursorDragChange vsimPriv dragging_cursor write"
+#     (write trace on "vsimPriv(dragging_cursor)")
+#     invoked from within
+# "set vsimPriv(dragging_cursor) 0"
+#     (procedure "Wave::1Up" line 76)
+#     invoked from within
+# "Wave::1Up $widget $x $y"
+#     (procedure "Wave::SelectUp" line 4)
+#     invoked from within
+# "Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 556 495 -2335 212 "
+#     (command bound to event)
+#    <2:C:/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ".tree"}
+#    <1:eval:1: ::tk::dialog::error::bgerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ".tree"}
+#  Trace back: invalid command name ".tree"
+#     while executing
+# "$wt cursoractivenumber"
+#     (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Base::UserChangedActiveTime" body line 9)
+#     invoked from within
+# "::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime"
+#     (in namespace inscope "::vsimwidgets::Dataflow::Base" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Dataflow::Base {::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime}"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval [$timebar cget -timechangecb]"
+#     (procedure "::vsimwidgets::TimeBar::TimeChangeHandler" body line 17)
+#     invoked from within
+# "::vsimwidgets::TimeBar::TimeChangeHandler ::vsimPriv acttime write"
+#     (write trace on "::vsimPriv(acttime)")
+#     invoked from within
+# "set ::vsimPriv(acttime) $t"
+#     (procedure "::TimeBarCmd::SetActiveTime" line 10)
+#     invoked from within
+# "::TimeBarCmd::SetActiveTime $t "--store""
+#     (procedure "::vsimwidgets::TimeBar::SetActiveTime" body line 18)
+#     invoked from within
+# "SetActiveTime $_acttimeAfterDrag --postdrag"
+#     (procedure "::vsimwidgets::TimeBar::WaveCursorDragChange" body line 23)
+#     invoked from within
+# "::vsimwidgets::TimeBar::WaveCursorDragChange vsimPriv dragging_cursor write"
+#     (write trace on "vsimPriv(dragging_cursor)")
+#     invoked from within
+# "set vsimPriv(dragging_cursor) 0"
+#     (procedure "Wave::1Up" line 76)
+#     invoked from within
+# "Wave::1Up $widget $x $y"
+#     (procedure "Wave::SelectUp" line 4)
+#     invoked from within
+# "Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 606 439 -2285 156 "
+#     (command bound to event)
+#    <2:C:/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ".tree"}
+#  Trace back: invalid command name ".tree"
+#     while executing
+# "$wt cursoractivenumber"
+#     (object "::.main_pane.dataflow.interior.cs.body.pw.df.c" method "::vsimwidgets::Dataflow::Base::UserChangedActiveTime" body line 9)
+#     invoked from within
+# "::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime"
+#     (in namespace inscope "::vsimwidgets::Dataflow::Base" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::Dataflow::Base {::.main_pane.dataflow.interior.cs.body.pw.df.c UserChangedActiveTime}"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval [$timebar cget -timechangecb]"
+#     (procedure "::vsimwidgets::TimeBar::TimeChangeHandler" body line 17)
+#     invoked from within
+# "::vsimwidgets::TimeBar::TimeChangeHandler ::vsimPriv acttime write"
+#     (write trace on "::vsimPriv(acttime)")
+#     invoked from within
+# "set ::vsimPriv(acttime) $t"
+#     (procedure "::TimeBarCmd::SetActiveTime" line 10)
+#     invoked from within
+# "::TimeBarCmd::SetActiveTime $t "--store""
+#     (procedure "::vsimwidgets::TimeBar::SetActiveTime" body line 18)
+#     invoked from within
+# "SetActiveTime $_acttimeAfterDrag --postdrag"
+#     (procedure "::vsimwidgets::TimeBar::WaveCursorDragChange" body line 23)
+#     invoked from within
+# "::vsimwidgets::TimeBar::WaveCursorDragChange vsimPriv dragging_cursor write"
+#     (write trace on "vsimPriv(dragging_cursor)")
+#     invoked from within
+# "set vsimPriv(dragging_cursor) 0"
+#     (procedure "Wave::1Up" line 76)
+#     invoked from within
+# "Wave::1Up $widget $x $y"
+#     (procedure "Wave::SelectUp" line 4)
+#     invoked from within
+# "Wave::SelectUp	 .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data 87 344 -2804 61 "
+#     (command bound to event)
+#    <2:C:/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {can't set "vsimPriv(dragging_cursor)": can't set "::vsimPriv(acttime)": invalid command name ".tree"}
+quit -sim

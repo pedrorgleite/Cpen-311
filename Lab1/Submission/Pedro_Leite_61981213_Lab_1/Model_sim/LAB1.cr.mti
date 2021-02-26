@@ -1,0 +1,50 @@
+{C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_LED.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_LED.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module FSMLED
+
+Top level modules:
+	FSMLED
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/vDFF.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/vDFF.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module vDFF
+
+Top level modules:
+	vDFF
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/clk_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module clk_tb
+
+Top level modules:
+	clk_tb
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/FSM_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module led_tb
+
+Top level modules:
+	led_tb
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequency_gen_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequency_gen_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module couter_tb
+
+Top level modules:
+	couter_tb
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequeny_gen.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Submission/Pedro_Leite_61981213_Lab_1/Model_sim/frequeny_gen.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module frequency_generator
+
+Top level modules:
+	frequency_generator
+
+} {} {}}

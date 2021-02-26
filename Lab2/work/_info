@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Homework/Homework2
+vcounter
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1612937594
+!i10b 1
+!s100 cASgj1m36aG@d<`HjG3>O0
+IMo0bEX;c<5o:oh_oL]@KV1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 clk_sv_unit
+S1
+Z3 dC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2
+w1612937539
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\clk.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\clk.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1612937594.967000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\clk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\clk.sv|
+!i113 1
+Z5 o-work work -sv
+vcouter_tb2
+R0
+!s110 1612937595
+!i10b 1
+!s100 la>[GWNVm2[@^:99XJiTz2
+Im`WbBKeYPHC_6H4a5X^@o3
+R2
+!s105 Couter_tb_sv_unit
+S1
+R3
+w1612937590
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Couter_tb.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Couter_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1612937595.112000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Couter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Couter_tb.sv|
+!i113 1
+R5
+vFLASH_FSM
+R0
+R1
+!i10b 1
+!s100 8bi_;@0_TABD@;dY<HYZS0
+IJd>jmJURLnI>]adk7QZLW0
+R2
+!s105 FLASH_FSM_sv_unit
+S1
+R3
+w1612936078
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1612937594.716000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv|
+!i113 1
+R5
+n@f@l@a@s@h_@f@s@m
+vFLASH_FSM_tb
+R0
+R1
+!i10b 1
+!s100 1891Qge[>BWa2;0T[[i;g2
+IBJTU]K58I6INz:WkHgVVC1
+R2
+!s105 FLASH_FSM_TB_sv_unit
+S1
+R3
+w1612935113
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\FLASH_FSM_TB.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\FLASH_FSM_TB.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1612937594.844000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\FLASH_FSM_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\FLASH_FSM_TB.sv|
+!i113 1
+R5
+n@f@l@a@s@h_@f@s@m_tb

@@ -1,0 +1,284 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Program Files
+vAdder1
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1611360785
+!i10b 1
+!s100 nBSlGmJ`dc@f8W=2SbZc91
+ILO1Ee1l2c7L52C7]o<_KJ0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 !s105 clk_sv_unit
+S1
+Z4 dC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1
+Z5 w1611360562
+Z6 8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\clk.sv
+Z7 FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\clk.sv
+L0 4
+Z8 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z9 !s108 1611360785.862000
+Z10 !s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\clk.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\clk.sv|
+!i113 1
+Z12 o-work work -sv
+n@adder1
+vAdder2
+R0
+R1
+!i10b 1
+!s100 WVkFeA=kS7:kDd4?K5_Y90
+I?c9[8c3:e3^@e7LG2o[[^3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 18
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@adder2
+vcounter
+R0
+Z13 !s110 1611637392
+!i10b 1
+!s100 B:M<?mGj1@QfOPVRinJaJ0
+Ii;K_2cQ<ZLUGo03]e?e6Y3
+R2
+R3
+S1
+R4
+w1611637387
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clk.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clk.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1611637392.740000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/clk.sv|
+!i113 1
+R12
+vcouter_tb
+R0
+R13
+!i10b 1
+!s100 PIY:4DbIY2N5_FKejQCD>2
+I^3;1l^gk=ePiR]kfE@9zf0
+R2
+!s105 TestBench_sv_unit
+S1
+R4
+w1611446470
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1611637392.829000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/TestBench.sv|
+!i113 1
+R12
+vcouter_tb2
+R0
+Z14 !s110 1611637393
+!i10b 1
+!s100 ;QkE63_Sjb@izH8@NiiiS1
+I2kSIQz8^fkg`Ze9C`c>_T0
+R2
+!s105 Couter_tb_sv_unit
+S1
+R4
+w1611518747
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Couter_tb.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Couter_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1611637393.023000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Couter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/Couter_tb.sv|
+!i113 1
+R12
+vfrequency_generator
+R0
+R13
+!i10b 1
+!s100 Bg]3?dmQO2Wh[_SRGPaOd0
+IT^6_gL_LjX7Zc=^U7d0Da1
+R2
+!s105 frequeny_gen_sv_unit
+S1
+R4
+w1611636942
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/frequeny_gen.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/frequeny_gen.sv
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1611637392.919000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/frequeny_gen.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/frequeny_gen.sv|
+!i113 1
+R12
+vFSMLED
+R14
+!i10b 1
+!s100 45T9TAKeo_iMh``e`Wmaa1
+IFcA7acHS;RBE>8=b^]kmG1
+R2
+R4
+w1611534845
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/FSMLED.v
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/FSMLED.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1611637393.481000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/FSMLED.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/FSMLED.v|
+!i113 1
+Z15 o-work work
+n@f@s@m@l@e@d
+vLED
+R0
+R14
+!i10b 1
+!s100 cz]>diCO1^_4]I8?ol:VC3
+IfST2?2Tec>oGQPi86ECC]1
+R2
+!s105 LED_sv_unit
+S1
+R4
+w1611582421
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED.sv
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1611637393.137000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED.sv|
+!i113 1
+R12
+n@l@e@d
+vled_tb
+R0
+R14
+!i10b 1
+!s100 8[bC_jkbl9bP2K4J[o]WU0
+I=a=Bl_@9EnG7PROUSF8@91
+R2
+!s105 LED_tb_sv_unit
+S1
+R4
+w1611518739
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED_tb.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1611637393.268000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/LED_tb.sv|
+!i113 1
+R12
+vRAM
+Z16 !s110 1611360853
+!i10b 1
+!s100 jkRGQlj6UlH>Gng66P[Tl3
+I0PU=jefOoEDV0eDnSknE`2
+R2
+R4
+Z17 w1611360781
+Z18 8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\test.v
+Z19 FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\test.v
+L0 14
+R8
+r1
+!s85 0
+31
+Z20 !s108 1611360853.362000
+Z21 !s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\test.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab1\test.v|
+!i113 1
+R15
+n@r@a@m
+vROM
+R16
+!i10b 1
+!s100 hco5e@>TkMGmEBPBi[VGe0
+I[:G^6C8YQ^CKIlh1PW4AR1
+R2
+R4
+R17
+R18
+R19
+L0 2
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R15
+n@r@o@m
+vvDFF
+R0
+R14
+!i10b 1
+!s100 ?j^9[W<dJXmU:d15JYHea2
+IIT[_nA@G0hXaaz_IiKU]m2
+R2
+!s105 vDFF_sv_unit
+S1
+R4
+w1611586214
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/vDFF.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/vDFF.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1611637393.376000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/vDFF.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab1/vDFF.sv|
+!i113 1
+R12
+nv@d@f@f

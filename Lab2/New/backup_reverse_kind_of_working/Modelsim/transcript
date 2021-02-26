@@ -1,0 +1,84 @@
+# Reading C:/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/Lab2.mpf}
+# Loading project Lab2
+vsim -gui work.ADDR_FSM_tb
+# vsim -gui C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\Lab2.mpf 
+# Start time: 22:52:21 on Feb 13,2021
+# Loading sv_std.std
+# Loading work.ADDR_FSM_tb
+# Loading work.ADDR_FSM
+add wave -position insertpoint  \
+sim:/ADDR_FSM_tb/start \
+sim:/ADDR_FSM_tb/reset \
+sim:/ADDR_FSM_tb/clk \
+sim:/ADDR_FSM_tb/next_address \
+sim:/ADDR_FSM_tb/finish
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pedri  Hostname: DESKTOP-OBHMTSG  ProcessID: 13068
+# 
+#           Attempting to use alternate WLF file "./wlftexzir5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftexzir5
+# 
+add wave -position insertpoint  \
+sim:/ADDR_FSM_tb/DUT/last_addr \
+sim:/ADDR_FSM_tb/DUT/idle \
+sim:/ADDR_FSM_tb/DUT/strob_addr \
+sim:/ADDR_FSM_tb/DUT/finished \
+sim:/ADDR_FSM_tb/DUT/boo_addr \
+sim:/ADDR_FSM_tb/DUT/add_addr \
+sim:/ADDR_FSM_tb/DUT/rst_count \
+sim:/ADDR_FSM_tb/DUT/start \
+sim:/ADDR_FSM_tb/DUT/reset \
+sim:/ADDR_FSM_tb/DUT/clk \
+sim:/ADDR_FSM_tb/DUT/next_address \
+sim:/ADDR_FSM_tb/DUT/finish \
+sim:/ADDR_FSM_tb/DUT/mem_next_address \
+sim:/ADDR_FSM_tb/DUT/count \
+sim:/ADDR_FSM_tb/DUT/strob_addr_logic \
+sim:/ADDR_FSM_tb/DUT/reset_count \
+sim:/ADDR_FSM_tb/DUT/add_count_addr \
+sim:/ADDR_FSM_tb/DUT/state
+run -all
+# Break key hit
+# Simulation stop requested.
+vsim -gui work.speed_control_tb
+# vsim 
+# Start time: 22:55:33 on Feb 13,2021
+# Loading sv_std.std
+# Loading work.speed_control_tb
+# Loading work.speed_controller
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/speed_control_tb/slower \
+sim:/speed_control_tb/faster \
+sim:/speed_control_tb/clk \
+sim:/speed_control_tb/reset_speed \
+sim:/speed_control_tb/count \
+sim:/speed_control_tb/countby2
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: pedri  Hostname: DESKTOP-OBHMTSG  ProcessID: 13068
+# 
+#           Attempting to use alternate WLF file "./wlfttw5an6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfttw5an6
+# 
+add wave -position insertpoint  \
+sim:/speed_control_tb/DUT/def_speed \
+sim:/speed_control_tb/DUT/go_faster \
+sim:/speed_control_tb/DUT/go_slower \
+sim:/speed_control_tb/DUT/default_speed \
+sim:/speed_control_tb/DUT/clk \
+sim:/speed_control_tb/DUT/faster \
+sim:/speed_control_tb/DUT/slower \
+sim:/speed_control_tb/DUT/reset_speed \
+sim:/speed_control_tb/DUT/count \
+sim:/speed_control_tb/DUT/countby2
+run -all
+# ** Note: $stop    : C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/speed_control_tb.sv(29)
+#    Time: 100020 ps  Iteration: 0  Instance: /speed_control_tb
+# Break in Module speed_control_tb at C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/speed_control_tb.sv line 29

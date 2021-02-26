@@ -1,0 +1,34 @@
+
+module LED(input logic clk,
+                           input logic [3:0]SW,
+                           output logic [7:0]LED);
+//signal declaration
+
+logic in_fsm, d;
+logic Clk1Hz, Clk1kHz;
+logic [2:0] LED_out;
+
+counter #(.M(25000), .N(15)) freq1khz(.clk(clk),.reset(SW[0]),
+                                    .max_tick(d),
+                                    .out(Clk1kHz));
+counter #(.N(9), .M(500)) freq0(.clk(Clk1kHz),
+                                    .reset(SW[0]),
+                                    .max_tick(in_fsm),
+                                    .out(Clk1Hz));
+
+FSMLED fsm1(.clk(clk), .reset(SW[0]), .in(in_fsm), .out(LED_out));
+
+always@(*)
+    case(LED_out)
+      3'b000: LED[7:0] = 8'b1000_0000;
+      3'b001: LED[7:0] = 8'b0100_0000;   
+      3'b010: LED[7:0] = 8'b0010_0000;
+      3'b011: LED[7:0] = 8'b0001_0000;
+      3'b100: LED[7:0] = 8'b0000_1000;
+      3'b101: LED[7:0] = 8'b0000_0100;
+      3'b110: LED[7:0] = 8'b0000_0010;
+      3'b111: LED[7:0] = 8'b0000_0001;
+      default LED[7:0] = 8'b0000_0000;
+    endcase
+
+endmodule

@@ -3,358 +3,386 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Setup 'auto_stp_external_clock_2'
-Slack : 3.091
+Slack : 2.608
 TNS   : 0.000
 
 Type  : Setup 'CLOCK_50'
-Slack : 4.548
+Slack : 4.661
 TNS   : 0.000
 
 Type  : Setup 'altera_reserved_tck'
-Slack : 6.950
+Slack : 7.142
 TNS   : 0.000
 
 Type  : Setup 'ADDR_FSM:FSM1|state[0]'
-Slack : 8.299
-TNS   : 0.000
-
-Type  : Setup 'Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 10.117
-TNS   : 0.000
-
-Type  : Setup 'Audio_fsm:FSM3|state[1]'
-Slack : 10.236
-TNS   : 0.000
-
-Type  : Setup 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[9]'
-Slack : 10.907
-TNS   : 0.000
-
-Type  : Setup 'audio_controller:audio_control|audio_clock:u4|LRCK_1X'
-Slack : 11.032
-TNS   : 0.000
-
-Type  : Setup 'FLASH_FSM:FSM2|state[1]'
-Slack : 11.564
-TNS   : 0.000
-
-Type  : Setup 'Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 11.799
+Slack : 7.986
 TNS   : 0.000
 
 Type  : Setup 'doublesync:ps2c_doublsync|reg2'
-Slack : 12.985
+Slack : 10.213
+TNS   : 0.000
+
+Type  : Setup 'Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|tc_reg'
+Slack : 10.522
+TNS   : 0.000
+
+Type  : Setup 'Audio_fsm:FSM3|state[1]'
+Slack : 10.703
+TNS   : 0.000
+
+Type  : Setup 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[9]'
+Slack : 10.992
+TNS   : 0.000
+
+Type  : Setup 'Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|tc_reg'
+Slack : 11.078
+TNS   : 0.000
+
+Type  : Setup 'audio_controller:audio_control|audio_clock:u4|LRCK_1X'
+Slack : 11.143
+TNS   : 0.000
+
+Type  : Setup 'FLASH_FSM:FSM2|state[1]'
+Slack : 12.016
+TNS   : 0.000
+
+Type  : Setup 'SW[6]'
+Slack : 14.301
 TNS   : 0.000
 
 Type  : Setup 'auto_stp_external_clock_5'
-Slack : 14.004
+Slack : 14.507
 TNS   : 0.000
 
 Type  : Setup 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_regs_gen[1].div_reg|outdata[0]'
-Slack : 16.602
+Slack : 15.935
 TNS   : 0.000
 
 Type  : Setup 'Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 17.488
+Slack : 17.068
 TNS   : 0.000
 
 Type  : Setup 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_reg_top|outdata[0]'
-Slack : 17.579
+Slack : 17.380
 TNS   : 0.000
 
 Type  : Setup 'SW[1]'
-Slack : 20.219
+Slack : 22.682
 TNS   : 0.000
 
 Type  : Setup 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[4]'
-Slack : 30.489
-TNS   : 0.000
-
-Type  : Setup 'audio_controller:audio_control|audio_clock:u4|oAUD_BCK'
-Slack : 34.308
+Slack : 30.674
 TNS   : 0.000
 
 Type  : Setup 'audio_controller:audio_control|I2C_AV_Config:u3|mI2C_CTRL_CLK'
-Slack : 35.035
+Slack : 34.170
+TNS   : 0.000
+
+Type  : Setup 'audio_controller:audio_control|audio_clock:u4|oAUD_BCK'
+Slack : 34.463
 TNS   : 0.000
 
 Type  : Setup 'counter:clk_10Hz|out'
-Slack : 36.438
+Slack : 35.711
 TNS   : 0.000
 
 Type  : Setup 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[6]'
-Slack : 37.110
+Slack : 37.398
 TNS   : 0.000
 
 Type  : Hold 'CLOCK_50'
-Slack : -3.091
-TNS   : -1868.915
+Slack : -3.201
+TNS   : -1856.460
+
+Type  : Hold 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[4]'
+Slack : 0.239
+TNS   : 0.000
 
 Type  : Hold 'audio_controller:audio_control|I2C_AV_Config:u3|mI2C_CTRL_CLK'
 Slack : 0.278
 TNS   : 0.000
 
 Type  : Hold 'counter:clk_10Hz|out'
-Slack : 0.286
-TNS   : 0.000
-
-Type  : Hold 'auto_stp_external_clock_2'
-Slack : 0.293
-TNS   : 0.000
-
-Type  : Hold 'auto_stp_external_clock_5'
-Slack : 0.298
+Slack : 0.288
 TNS   : 0.000
 
 Type  : Hold 'Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 0.313
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Hold 'auto_stp_external_clock_2'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Hold 'auto_stp_external_clock_5'
+Slack : 0.299
 TNS   : 0.000
 
 Type  : Hold 'audio_controller:audio_control|audio_clock:u4|oAUD_BCK'
-Slack : 0.322
-TNS   : 0.000
-
-Type  : Hold 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[4]'
-Slack : 0.339
-TNS   : 0.000
-
-Type  : Hold 'Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 0.367
-TNS   : 0.000
-
-Type  : Hold 'Audio_fsm:FSM3|state[1]'
-Slack : 0.371
+Slack : 0.314
 TNS   : 0.000
 
 Type  : Hold 'altera_reserved_tck'
-Slack : 0.373
-TNS   : 0.000
-
-Type  : Hold 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_reg_top|outdata[0]'
-Slack : 0.534
+Slack : 0.372
 TNS   : 0.000
 
 Type  : Hold 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_regs_gen[1].div_reg|outdata[0]'
-Slack : 0.655
+Slack : 0.573
+TNS   : 0.000
+
+Type  : Hold 'Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|tc_reg'
+Slack : 0.598
 TNS   : 0.000
 
 Type  : Hold 'doublesync:ps2c_doublsync|reg2'
-Slack : 0.778
+Slack : 0.721
+TNS   : 0.000
+
+Type  : Hold 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_reg_top|outdata[0]'
+Slack : 0.731
 TNS   : 0.000
 
 Type  : Hold 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[6]'
-Slack : 0.860
+Slack : 0.732
 TNS   : 0.000
 
-Type  : Hold 'audio_controller:audio_control|audio_clock:u4|LRCK_1X'
-Slack : 5.108
+Type  : Hold 'Audio_fsm:FSM3|state[1]'
+Slack : 0.954
 TNS   : 0.000
 
-Type  : Hold 'ADDR_FSM:FSM1|state[0]'
-Slack : 5.113
+Type  : Hold 'SW[6]'
+Slack : 2.617
 TNS   : 0.000
 
 Type  : Hold 'FLASH_FSM:FSM2|state[1]'
-Slack : 5.118
+Slack : 4.986
+TNS   : 0.000
+
+Type  : Hold 'audio_controller:audio_control|audio_clock:u4|LRCK_1X'
+Slack : 5.043
+TNS   : 0.000
+
+Type  : Hold 'ADDR_FSM:FSM1|state[0]'
+Slack : 5.156
 TNS   : 0.000
 
 Type  : Hold 'Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 5.918
+Slack : 5.851
 TNS   : 0.000
 
 Type  : Hold 'SW[1]'
-Slack : 13.020
+Slack : 13.407
 TNS   : 0.000
 
 Type  : Hold 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[9]'
-Slack : 22.048
+Slack : 21.806
 TNS   : 0.000
 
 Type  : Recovery 'Kbd_ctrl:Kbd_Controller|data_ready'
-Slack : 0.360
+Slack : 0.376
 TNS   : 0.000
 
 Type  : Recovery 'doublesync:ps2c_doublsync|reg2'
-Slack : 0.619
+Slack : 0.433
 TNS   : 0.000
 
 Type  : Recovery 'speed_down_event_trigger'
-Slack : 0.849
+Slack : 0.788
 TNS   : 0.000
 
 Type  : Recovery 'speed_up_event_trigger'
-Slack : 1.137
+Slack : 0.996
 TNS   : 0.000
 
 Type  : Recovery 'CLOCK_50'
-Slack : 5.269
-TNS   : 0.000
-
-Type  : Recovery 'ADDR_FSM:FSM1|state[0]'
-Slack : 9.971
-TNS   : 0.000
-
-Type  : Recovery 'Audio_fsm:FSM3|state[1]'
-Slack : 10.470
+Slack : 6.092
 TNS   : 0.000
 
 Type  : Recovery 'doublesync:key2_doublsync|reg2'
-Slack : 10.537
+Slack : 9.172
+TNS   : 0.000
+
+Type  : Recovery 'ADDR_FSM:FSM1|state[0]'
+Slack : 10.514
+TNS   : 0.000
+
+Type  : Recovery 'Audio_fsm:FSM3|state[1]'
+Slack : 10.649
+TNS   : 0.000
+
+Type  : Recovery 'FLASH_FSM:FSM2|state[1]'
+Slack : 11.082
 TNS   : 0.000
 
 Type  : Recovery 'audio_controller:audio_control|audio_clock:u4|oAUD_BCK'
-Slack : 11.364
-TNS   : 0.000
-
-Type  : Recovery 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[6]'
-Slack : 11.565
+Slack : 11.499
 TNS   : 0.000
 
 Type  : Recovery 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_regs_gen[1].div_reg|outdata[0]'
-Slack : 11.606
+Slack : 11.511
 TNS   : 0.000
 
 Type  : Recovery 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[5]'
-Slack : 11.732
+Slack : 12.091
+TNS   : 0.000
+
+Type  : Recovery 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[6]'
+Slack : 12.251
 TNS   : 0.000
 
 Type  : Recovery 'altera_reserved_tck'
-Slack : 14.680
+Slack : 14.416
 TNS   : 0.000
 
 Type  : Recovery 'SW[1]'
-Slack : 15.851
+Slack : 16.172
 TNS   : 0.000
 
 Type  : Removal 'CLOCK_50'
-Slack : 0.646
+Slack : 0.558
 TNS   : 0.000
 
 Type  : Removal 'altera_reserved_tck'
-Slack : 0.770
+Slack : 0.689
 TNS   : 0.000
 
 Type  : Removal 'SW[1]'
-Slack : 1.951
+Slack : 1.325
 TNS   : 0.000
 
 Type  : Removal 'audio_controller:audio_control|audio_clock:u4|oAUD_BCK'
-Slack : 5.042
-TNS   : 0.000
-
-Type  : Removal 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_regs_gen[1].div_reg|outdata[0]'
-Slack : 5.713
-TNS   : 0.000
-
-Type  : Removal 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[5]'
-Slack : 6.118
+Slack : 4.648
 TNS   : 0.000
 
 Type  : Removal 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[6]'
-Slack : 6.323
+Slack : 5.619
 TNS   : 0.000
 
-Type  : Removal 'ADDR_FSM:FSM1|state[0]'
-Slack : 6.435
+Type  : Removal 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[5]'
+Slack : 5.802
 TNS   : 0.000
 
 Type  : Removal 'Audio_fsm:FSM3|state[1]'
-Slack : 6.510
+Slack : 5.930
+TNS   : 0.000
+
+Type  : Removal 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_regs_gen[1].div_reg|outdata[0]'
+Slack : 6.069
+TNS   : 0.000
+
+Type  : Removal 'ADDR_FSM:FSM1|state[0]'
+Slack : 6.144
 TNS   : 0.000
 
 Type  : Removal 'doublesync:ps2c_doublsync|reg2'
-Slack : 6.753
+Slack : 6.556
+TNS   : 0.000
+
+Type  : Removal 'FLASH_FSM:FSM2|state[1]'
+Slack : 6.580
 TNS   : 0.000
 
 Type  : Removal 'doublesync:key2_doublsync|reg2'
-Slack : 7.139
+Slack : 8.036
 TNS   : 0.000
 
 Type  : Removal 'speed_up_event_trigger'
-Slack : 16.772
+Slack : 16.846
 TNS   : 0.000
 
 Type  : Removal 'speed_down_event_trigger'
-Slack : 16.960
+Slack : 16.957
 TNS   : 0.000
 
 Type  : Removal 'Kbd_ctrl:Kbd_Controller|data_ready'
-Slack : 17.487
+Slack : 17.033
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'CLOCK_50'
-Slack : 8.476
+Slack : 8.578
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'altera_reserved_tck'
-Slack : 15.273
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'auto_stp_external_clock_2'
-Slack : 18.884
+Slack : 15.271
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'auto_stp_external_clock_5'
-Slack : 18.884
+Slack : 18.879
 TNS   : 0.000
 
-Type  : Minimum Pulse Width 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_regs_gen[1].div_reg|outdata[0]'
-Slack : 19.122
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'SW[1]'
-Slack : 19.205
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[4]'
-Slack : 19.214
+Type  : Minimum Pulse Width 'auto_stp_external_clock_2'
+Slack : 18.882
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'doublesync:ps2c_doublsync|reg2'
-Slack : 19.221
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'ADDR_FSM:FSM1|state[0]'
-Slack : 19.267
+Slack : 19.203
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'audio_controller:audio_control|audio_clock:u4|oAUD_BCK'
-Slack : 19.268
+Slack : 19.218
 TNS   : 0.000
 
-Type  : Minimum Pulse Width 'audio_controller:audio_control|I2C_AV_Config:u3|mI2C_CTRL_CLK'
-Slack : 19.347
+Type  : Minimum Pulse Width 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_regs_gen[1].div_reg|outdata[0]'
+Slack : 19.228
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'SW[1]'
+Slack : 19.244
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'Generate_Arbitrary_Divided_Clk32:Generate_LCD_scope_Clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 19.370
+Slack : 19.281
 TNS   : 0.000
 
-Type  : Minimum Pulse Width 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[9]'
-Slack : 19.383
+Type  : Minimum Pulse Width 'audio_controller:audio_control|I2C_AV_Config:u3|mI2C_CTRL_CLK'
+Slack : 19.305
 TNS   : 0.000
 
-Type  : Minimum Pulse Width 'Kbd_ctrl:Kbd_Controller|data_ready'
-Slack : 19.386
+Type  : Minimum Pulse Width 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[4]'
+Slack : 19.322
 TNS   : 0.000
 
-Type  : Minimum Pulse Width 'Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 19.396
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Audio_fsm:FSM3|state[1]'
-Slack : 19.400
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[5]'
-Slack : 19.403
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'doublesync:key2_doublsync|reg2'
-Slack : 19.403
+Type  : Minimum Pulse Width 'ADDR_FSM:FSM1|state[0]'
+Slack : 19.329
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[6]'
+Slack : 19.345
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'Kbd_ctrl:Kbd_Controller|data_ready'
+Slack : 19.349
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'FLASH_FSM:FSM2|state[1]'
+Slack : 19.366
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'Generate_Arbitrary_Divided_Clk32:Gen_1KHz_clk|var_clk_div32:Div_Clk|tc_reg'
+Slack : 19.377
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'audio_controller:audio_control|audio_clock:u4|LRCK_1X'
+Slack : 19.377
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[5]'
+Slack : 19.390
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'counter:clk_10Hz|out'
+Slack : 19.400
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|tc_reg'
+Slack : 19.401
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'Audio_fsm:FSM3|state[1]'
+Slack : 19.402
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'Write_Kbd_To_Scope_LCD:Write_Kbd_To_LCD1|state[9]'
 Slack : 19.405
 TNS   : 0.000
 
@@ -363,31 +391,19 @@ Slack : 19.406
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'speed_up_event_trigger'
-Slack : 19.406
+Slack : 19.407
 TNS   : 0.000
 
-Type  : Minimum Pulse Width 'SW[6]'
-Slack : 19.409
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'counter:clk_10Hz|out'
-Slack : 19.411
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'Generate_Arbitrary_Divided_Clk32:Gen_2Hz_clk|var_clk_div32:Div_Clk|tc_reg'
-Slack : 19.414
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'FLASH_FSM:FSM2|state[1]'
-Slack : 19.418
-TNS   : 0.000
-
-Type  : Minimum Pulse Width 'audio_controller:audio_control|audio_clock:u4|LRCK_1X'
-Slack : 19.422
+Type  : Minimum Pulse Width 'doublesync:key2_doublsync|reg2'
+Slack : 19.408
 TNS   : 0.000
 
 Type  : Minimum Pulse Width 'audio_controller:audio_control|TFF_power_of_2_division_counter_with_auto_phase_inversion:generate_aud_ctrl_clk|widereg:div_reg_top|outdata[0]'
-Slack : 19.434
+Slack : 19.433
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'SW[6]'
+Slack : 19.574
 TNS   : 0.000
 
 ------------------------------------------------------------

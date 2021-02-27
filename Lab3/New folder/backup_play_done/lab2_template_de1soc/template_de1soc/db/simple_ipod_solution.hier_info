@@ -1,9 +1,9 @@
 |simple_ipod_solution
 CLOCK_50 => CLK_50M.IN24
-LEDR[0] <= kbd_ipod_controller:kbd_ipod.direction
+LEDR[0] <= <GND>
 LEDR[1] <= kbd_ipod_controller:kbd_ipod.reset
 LEDR[2] <= <GND>
-LEDR[3] <= kbd_ipod_controller:kbd_ipod.pause
+LEDR[3] <= <GND>
 LEDR[4] <= <GND>
 LEDR[5] <= <GND>
 LEDR[6] <= <GND>
@@ -17,12 +17,12 @@ KEY[1] => _.IN1
 KEY[2] => _.IN1
 KEY[2] => _.IN1
 KEY[3] => ~NO_FANOUT~
-SW[0] => SW[0].IN1
+SW[0] => ~NO_FANOUT~
 SW[1] => SW[1].IN1
 SW[2] => ~NO_FANOUT~
 SW[3] => SW[3].IN1
 SW[4] => ~NO_FANOUT~
-SW[5] => SW[5].IN1
+SW[5] => ~NO_FANOUT~
 SW[6] => SW[6].IN1
 SW[7] => SW[7].IN1
 SW[8] => scope_enable_source.IN1

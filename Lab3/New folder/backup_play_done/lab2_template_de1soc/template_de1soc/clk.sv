@@ -6,9 +6,9 @@ module counter #(parameter N = 32)
                 output logic max_tick);
 
 logic [N-1:0]count;
-always_ff@(posedge clk, posedge reset)
+always_ff@(posedge clk or negedge reset)
 begin
-    if(reset) begin
+    if(~reset) begin
         out<= 1'b0;
         max_tick = 1'b0;
         count<= 0;

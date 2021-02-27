@@ -262,8 +262,8 @@ counter  #(.N(32)) clk_10Hz(.clk(CLK_50M),
 
 kbd_ipod_controller kbd_ipod(   .clk(CLK_50M),
                                 .kbd_received_ascii_code(kbd_received_ascii_code),//input
-                                .pause(LED[3]),
-                                .direction(LED[0]),
+                                .pause(play_music),
+                                .direction(play_forward),
                                 .reset(LED[1])
                              );                       
 speed_controller speed( .clk(Clock_10Hz),
@@ -290,12 +290,12 @@ ADDR_FSM FSM1(  .clk(CLK_50M),
                 .start(Sync_start_FSM1),
                 .next_address(FSM_mem_address),
                 .finish(start_FSM2),
-                .count_forward(SW[5])
+                .count_forward(play_forward)
                 );
 
 FLASH_FSM FSM2( .clk(CLK_50M),
                 .start(start_FSM2),
-                .reset_all(SW[0]),//active low
+                .reset_all(play_music),//active low
                 .FSM_mem_address(FSM_mem_address),
                 .flash_mem_waitrequest(flash_mem_waitrequest),
                 .flash_mem_readdata(flash_mem_readdata),

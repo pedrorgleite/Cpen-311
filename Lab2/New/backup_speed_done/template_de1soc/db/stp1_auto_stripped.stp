@@ -3,7 +3,7 @@
     <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
     <display_branch instance="auto_signaltap_1" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
     <display_branch instance="auto_signaltap_2" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
-    <display_branch instance="auto_signaltap_3" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+    <display_branch instance="auto_signaltap_3" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
   </display_tree>
   <instance enabled="true" entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
     <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
@@ -1211,12 +1211,13 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="8B08F835" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/11 02:20:02  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="8B08F835" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/11 02:20:02  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">'FLASH_FSM:FSM2|start' == high
             <power_up enabled="yes">
-            </power_up><op_node/>
+            </power_up>
+            <op_node/>
           </level>
         </events>
         <storage_qualifier_events>
@@ -1903,12 +1904,13 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="B1BC9F52" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/11 22:17:10  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="8192" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="B1BC9F52" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/11 22:17:10  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="8192" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">'Audio_fsm:FSM3|start' == high
             <power_up enabled="yes">
-            </power_up><op_node/>
+            </power_up>
+            <op_node/>
           </level>
         </events>
         <storage_qualifier_events>
@@ -2468,12 +2470,13 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="B0B7BB9E" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/11 11:27:47  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="B0B7BB9E" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/11 11:27:47  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">'ADDR_FSM:FSM1|start' == high
             <power_up enabled="yes">
-            </power_up><op_node/>
+            </power_up>
+            <op_node/>
           </level>
         </events>
         <storage_qualifier_events>
@@ -2730,7 +2733,7 @@
           <node data_index="64" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="speed_controller:speed|faster" storage_index="64" tap_mode="classic" trigger_index="64" type="unknown"/>
           <node data_index="65" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|reset_speed" storage_index="65" tap_mode="classic" trigger_index="65" type="unknown"/>
           <node data_index="66" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|slower" storage_index="66" tap_mode="classic" trigger_index="66" type="unknown"/>
-          <node is_selected="false" level-0="alt_or" name="speed_controller:speed|count[31..0]" order="msb_to_lsb" radix="unsigned_dec" type="combinatorial">
+          <node is_selected="false" level-0="alt_or" name="speed_controller:speed|count[31..0]" order="msb_to_lsb" type="combinatorial">
             <node data_index="24" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[31]" storage_index="24" tap_mode="classic" trigger_index="24" type="unknown"/>
             <node data_index="23" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[30]" storage_index="23" tap_mode="classic" trigger_index="23" type="unknown"/>
             <node data_index="21" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[29]" storage_index="21" tap_mode="classic" trigger_index="21" type="unknown"/>
@@ -2764,7 +2767,7 @@
             <node data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[1]" storage_index="11" tap_mode="classic" trigger_index="11" type="unknown"/>
             <node data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
           </node>
-          <node is_selected="false" level-0="alt_or" name="speed_controller:speed|countby2[31..0]" order="msb_to_lsb" radix="unsigned_dec" type="combinatorial">
+          <node is_selected="false" level-0="alt_or" name="speed_controller:speed|countby2[31..0]" order="msb_to_lsb" type="combinatorial">
             <node data_index="56" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[31]" storage_index="56" tap_mode="classic" trigger_index="56" type="unknown"/>
             <node data_index="55" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[30]" storage_index="55" tap_mode="classic" trigger_index="55" type="unknown"/>
             <node data_index="53" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[29]" storage_index="53" tap_mode="classic" trigger_index="53" type="unknown"/>
@@ -2803,7 +2806,7 @@
           <net data_index="64" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="speed_controller:speed|faster" storage_index="64" tap_mode="classic" trigger_index="64" type="unknown"/>
           <net data_index="65" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|reset_speed" storage_index="65" tap_mode="classic" trigger_index="65" type="unknown"/>
           <net data_index="66" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|slower" storage_index="66" tap_mode="classic" trigger_index="66" type="unknown"/>
-          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|count[31..0]" order="msb_to_lsb" radix="unsigned_dec" type="combinatorial">
+          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|count[31..0]" order="msb_to_lsb" type="combinatorial">
             <net data_index="24" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[31]" storage_index="24" tap_mode="classic" trigger_index="24" type="unknown"/>
             <net data_index="23" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[30]" storage_index="23" tap_mode="classic" trigger_index="23" type="unknown"/>
             <net data_index="21" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[29]" storage_index="21" tap_mode="classic" trigger_index="21" type="unknown"/>
@@ -2837,7 +2840,7 @@
             <net data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[1]" storage_index="11" tap_mode="classic" trigger_index="11" type="unknown"/>
             <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
           </bus>
-          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|countby2[31..0]" order="msb_to_lsb" radix="unsigned_dec" type="combinatorial">
+          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|countby2[31..0]" order="msb_to_lsb" type="combinatorial">
             <net data_index="56" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[31]" storage_index="56" tap_mode="classic" trigger_index="56" type="unknown"/>
             <net data_index="55" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[30]" storage_index="55" tap_mode="classic" trigger_index="55" type="unknown"/>
             <net data_index="53" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[29]" storage_index="53" tap_mode="classic" trigger_index="53" type="unknown"/>
@@ -2876,7 +2879,7 @@
           <net data_index="64" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" level-0="rising edge" name="speed_controller:speed|faster" storage_index="64" tap_mode="classic" trigger_index="64" type="unknown"/>
           <net data_index="65" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|reset_speed" storage_index="65" tap_mode="classic" trigger_index="65" type="unknown"/>
           <net data_index="66" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|slower" storage_index="66" tap_mode="classic" trigger_index="66" type="unknown"/>
-          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|count[31..0]" order="msb_to_lsb" radix="unsigned_dec" type="combinatorial">
+          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|count[31..0]" order="msb_to_lsb" type="combinatorial">
             <net data_index="24" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[31]" storage_index="24" tap_mode="classic" trigger_index="24" type="unknown"/>
             <net data_index="23" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[30]" storage_index="23" tap_mode="classic" trigger_index="23" type="unknown"/>
             <net data_index="21" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[29]" storage_index="21" tap_mode="classic" trigger_index="21" type="unknown"/>
@@ -2910,7 +2913,7 @@
             <net data_index="11" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[1]" storage_index="11" tap_mode="classic" trigger_index="11" type="unknown"/>
             <net data_index="0" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|count[0]" storage_index="0" tap_mode="classic" trigger_index="0" type="unknown"/>
           </bus>
-          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|countby2[31..0]" order="msb_to_lsb" radix="unsigned_dec" type="combinatorial">
+          <bus is_selected="false" level-0="alt_or" name="speed_controller:speed|countby2[31..0]" order="msb_to_lsb" type="combinatorial">
             <net data_index="56" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[31]" storage_index="56" tap_mode="classic" trigger_index="56" type="unknown"/>
             <net data_index="55" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[30]" storage_index="55" tap_mode="classic" trigger_index="55" type="unknown"/>
             <net data_index="53" duplicate_name_allowed="false" is_data_input="true" is_node_valid="true" is_selected="false" is_storage_input="true" is_trigger_input="true" name="speed_controller:speed|countby2[29]" storage_index="53" tap_mode="classic" trigger_index="53" type="unknown"/>
@@ -2948,12 +2951,13 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="B74D624" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/12 03:53:54  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="B74D624" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2021/02/12 03:53:54  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">'speed_controller:speed|faster' == rising edge
             <power_up enabled="yes">
-            </power_up><op_node/>
+            </power_up>
+            <op_node/>
           </level>
         </events>
         <storage_qualifier_events>
@@ -2979,15 +2983,15 @@
       </trigger>
     </signal_set>
     <position_info>
-      <single attribute="active tab" value="0"/>
-      <single attribute="data horizontal scroll position" value="14"/>
+      <single attribute="active tab" value="1"/>
+      <single attribute="data horizontal scroll position" value="0"/>
       <single attribute="data vertical scroll position" value="0"/>
       <single attribute="setup horizontal scroll position" value="0"/>
       <single attribute="setup vertical scroll position" value="0"/>
       <single attribute="zoom level denominator" value="1"/>
-      <single attribute="zoom level numerator" value="1024"/>
+      <single attribute="zoom level numerator" value="1"/>
       <single attribute="zoom offset denominator" value="1"/>
-      <single attribute="zoom offset numerator" value="48"/>
+      <single attribute="zoom offset numerator" value="130944"/>
     </position_info>
   </instance>
   <global_info>

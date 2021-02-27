@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at clk.sv(9): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at ADDR_FSM.sv(33): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at audio_fsm.sv(89): always construct contains both blocking and non-blocking assignments

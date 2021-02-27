@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA5F31) Path("C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/New/lab2_template_de1soc/template_de1soc/") File("simple_ipod_solution.sof") MfrSpec(OpMask(1) SEC_Device(EPCS128) Child_OpMask(1 0));
+		Device PartName(5CSEMA5F31) Path("C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/New/backup_reverse_kind_of_working/lab2_template_de1soc/template_de1soc/") File("simple_ipod_solution.sof") MfrSpec(OpMask(1) SEC_Device(EPCS128) Child_OpMask(1 0));
 
 ChainEnd;
 

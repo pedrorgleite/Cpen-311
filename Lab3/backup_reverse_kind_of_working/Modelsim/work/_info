@@ -1,0 +1,268 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/
+vADDR_FSM
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 !s110 1613125249
+!i10b 1
+!s100 AB7dA^2SHn_EkBFK>a?IL2
+I0dL@6Oz1DY:l?KGcb;DaC0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 ADDR_FSM_sv_unit
+S1
+Z3 dC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim
+w1613054198
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/ADDR_FSM.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/ADDR_FSM.sv
+L0 1
+Z4 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1613125249.930000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/ADDR_FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/ADDR_FSM.sv|
+!i113 1
+Z5 o-work work -sv
+n@a@d@d@r_@f@s@m
+vADDR_FSM_tb
+R0
+Z6 !s110 1613125250
+!i10b 1
+!s100 3iohoZhUMN:=TInjfI1z01
+IBg;FPPIcSY00nASC48@@P1
+R2
+!s105 ADDR_FSM_tb_sv_unit
+S1
+R3
+w1613005684
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\ADDR_FSM_tb.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\ADDR_FSM_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1613125250.043000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\ADDR_FSM_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\ADDR_FSM_tb.sv|
+!i113 1
+R5
+n@a@d@d@r_@f@s@m_tb
+vAudio_fsm
+R0
+R6
+!i10b 1
+!s100 h>`Y:n0]2iJjKofXjQ72A1
+IhMc1R?E_5d`cB[mI]<km[2
+R2
+!s105 audio_fsm_sv_unit
+S1
+R3
+w1613109366
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\New\lab2_template_de1soc\template_de1soc\audio_fsm.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\New\lab2_template_de1soc\template_de1soc\audio_fsm.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1613125250.146000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\New\lab2_template_de1soc\template_de1soc\audio_fsm.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\New\lab2_template_de1soc\template_de1soc\audio_fsm.sv|
+!i113 1
+R5
+n@audio_fsm
+vaudio_fsm_tb
+R0
+R6
+!i10b 1
+!s100 ^FaTl>aQH0`BL6I:9_1b@2
+IGHPC96?3[MHe<MIOBEmKd3
+R2
+!s105 audio_fsm_tb_sv_unit
+S1
+R3
+w1613095092
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\audio_fsm_tb.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\audio_fsm_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1613125250.252000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\audio_fsm_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\audio_fsm_tb.sv|
+!i113 1
+R5
+vcounter
+R0
+R1
+!i10b 1
+!s100 zHRH@9oUdE[U;jaSaLF`G2
+I_i7oW::_`hQanL3fVK@hR2
+R2
+!s105 clk_sv_unit
+S1
+R3
+w1613094190
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\clk.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\clk.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1613125249.414000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\clk.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\clk.sv|
+!i113 1
+R5
+vcouter_tb2
+R0
+R1
+!i10b 1
+!s100 la>[GWNVm2[@^:99XJiTz2
+ICmYlz5ZMS@8MInY_>3Z1J1
+R2
+!s105 Couter_tb_sv_unit
+S1
+R3
+w1612937590
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\Couter_tb.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\Couter_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1613125249.580000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\Couter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\Couter_tb.sv|
+!i113 1
+R5
+vFLASH_FSM
+R0
+R1
+!i10b 1
+!s100 A25Gf>kGAm9@aD=;^95Vf3
+IJEWJlUh2S>g]Wj;e_QJmK0
+R2
+!s105 FLASH_FSM_sv_unit
+S1
+R3
+w1613018903
+8C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv
+FC:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1613125249.807000
+!s107 C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv|
+!i113 1
+R5
+n@f@l@a@s@h_@f@s@m
+vFLASH_FSM_tb
+R0
+R1
+!i10b 1
+!s100 g8^Kk>zCLFX^GV18F^0gI2
+I;m^9@9ST6;`eNFJz4fc:W3
+R2
+!s105 FLASH_FSM_TB_sv_unit
+S1
+R3
+w1612998020
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\FLASH_FSM_TB.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\FLASH_FSM_TB.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1613125249.692000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\FLASH_FSM_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\FLASH_FSM_TB.sv|
+!i113 1
+R5
+n@f@l@a@s@h_@f@s@m_tb
+vkbd_ipod_controller
+R0
+R6
+!i10b 1
+!s100 ;6inA:@QCn[S[Ya;P]]zd1
+Ij1Z[UX^JEF2_gIC8X`FId1
+R2
+!s105 kbd_ipod_control_sv_unit
+S1
+R3
+w1613125244
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\kbd_ipod_control.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\kbd_ipod_control.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1613125250.613000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\kbd_ipod_control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\kbd_ipod_control.sv|
+!i113 1
+R5
+vspeed_control_tb
+R0
+R6
+!i10b 1
+!s100 NK=VRJ6D?i^n;=:TdGbL`2
+IY>ek^S1c^EfiGd?[P9XQJ3
+R2
+!s105 speed_control_tb_sv_unit
+S1
+R3
+w1613112416
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control_tb.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1613125250.484000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control_tb.sv|
+!i113 1
+R5
+vspeed_controller
+R0
+R6
+!i10b 1
+!s100 lMCbaKX?5SJoP7CNkL1980
+I2lG<bbG@gNI1m:4o?X[V<2
+R2
+!s105 speed_control_sv_unit
+S1
+R3
+w1613110787
+8C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control.sv
+FC:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1613125250.374000
+!s107 C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control.sv|
+!i113 1
+R5

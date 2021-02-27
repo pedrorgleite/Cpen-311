@@ -1,0 +1,92 @@
+{C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/speed_control_tb.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module speed_control_tb
+
+Top level modules:
+	speed_control_tb
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/Couter_tb.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\Couter_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module couter_tb2
+
+Top level modules:
+	couter_tb2
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/ADDR_FSM.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/ADDR_FSM.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module ADDR_FSM
+
+Top level modules:
+	ADDR_FSM
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/New/lab2_template_de1soc/template_de1soc/audio_fsm.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\New\lab2_template_de1soc\template_de1soc\audio_fsm.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module Audio_fsm
+
+Top level modules:
+	Audio_fsm
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/speed_control.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\speed_control.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module speed_controller
+
+Top level modules:
+	speed_controller
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/clk.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\clk.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv} {1 {vlog -work work -sv -stats=none {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/template_de1soc/FLASH_FSM.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module FLASH_FSM
+
+Top level modules:
+	FLASH_FSM
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/audio_fsm_tb.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\audio_fsm_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module audio_fsm_tb
+
+Top level modules:
+	audio_fsm_tb
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/FLASH_FSM_TB.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\FLASH_FSM_TB.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module FLASH_FSM_tb
+
+Top level modules:
+	FLASH_FSM_tb
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/FLASH_FSM_TB.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\FLASH_FSM_TB.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module FLASH_FSM_tb
+
+Top level modules:
+	FLASH_FSM_tb
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/clk.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\clk.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/kbd_ipod_control.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\kbd_ipod_control.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module kbd_ipod_controller
+
+Top level modules:
+	kbd_ipod_controller
+
+} {} {}} {C:/Users/pedri/OneDrive/UBC/3 Year/Cpen 311/Labs/Lab2/Modelsim/ADDR_FSM_tb.sv} {1 {vlog -work work -sv -stats=none {C:\Users\pedri\OneDrive\UBC\3 Year\Cpen 311\Labs\Lab2\Modelsim\ADDR_FSM_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+-- Compiling module ADDR_FSM_tb
+
+Top level modules:
+	ADDR_FSM_tb
+
+} {} {}}
